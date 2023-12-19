@@ -25,9 +25,9 @@ namespace CarLotSimulator
 
             //Dot Notation
             var charger = new Car();
-            charger.Make = "Dodge";
-            charger.Model = "Charger";
-            charger.Year = 1967;
+            charger.Make = "Chrysler";
+            charger.Model = "Thunderbolt Roadster";
+            charger.Year = 1941;
             charger.EngineNoise = "Perfection";
             charger.HonkNoise = "Honk honk";
             charger.IsDriveable = true;
@@ -39,9 +39,9 @@ namespace CarLotSimulator
             //Object Initializer Syntax
             var honda = new Car() 
             { 
-                Make = "Honda",
-                Model = "Accord",
-                Year = 2021,
+                Make = "Mercury",
+                Model = "Club COupe",
+                Year = 1940,
                 EngineNoise = "Rumble",
                 HonkNoise = "Beep",
                 IsDriveable = true
